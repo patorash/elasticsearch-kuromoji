@@ -1,4 +1,4 @@
-FROM elasticsearch:5.1.2-alpine
+FROM elasticsearch:5.6.14-alpine
 LABEL maintainer "patorash <chariderpato@gmail.com>"
 ADD elasticsearch.yml /usr/share/elasticsearch/config/
 
