@@ -1,3 +1,4 @@
-FROM elasticsearch:5.5.2-alpine
-MAINTAINER patorash <chariderpato@gmail.com>
+FROM elasticsearch:7.9.1
+LABEL maintainer "patorash <chariderpato@gmail.com>"
 RUN elasticsearch-plugin install analysis-kuromoji
+RUN elasticsearch-plugin install analysis-icu
